@@ -102,7 +102,7 @@ var V = (function ($) {
    * @returns {Array}
    */
   function normalizeConfig(config) {
-    config = config || config;
+    config = config || {};
 
     var validations = [];
 
